@@ -1,0 +1,23 @@
+#navBar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 7.5vh;
+  margin-bottom: 1vh;
+  border-bottom: solid 1px black;
+  background-color: rgb(172, 213, 255);
+  z-index: 1;
+}
+
+.navChild{
+  margin: auto 2vw;
+}
+
+#homeNav {
+  margin-right: auto;
+  
+}

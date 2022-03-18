@@ -1,0 +1,33 @@
+#mainContainer{
+  width: 60vw;
+  background-color: white;
+  border: solid 2px black;
+  margin-top: 15vh;
+  margin-left: 20vw;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  height: 5vh;
+  font-size: large;
+
+}
+
+button, input[type=submit]{
+  height: 5vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.menuContainer{
+  display: flex;
+  flex-direction: column;
+  flex-flow: nowrap;
+  justify-content: center;
+}
+
+.menuContainer > button {
+  flex-grow: 4;
+}

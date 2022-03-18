@@ -1,0 +1,47 @@
+#container{
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 15vh;
+  background-color: white;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} 
+
+#title{
+  margin: 0;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  width: 60vw;
+  text-align: center;
+  font-size: 2em;
+
+}
+
+.linkItem{
+
+  text-align: center;
+  font-size: 2em;
+
+  text-decoration: none;
+
+}
+#listContainer{
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.listItem{
+  margin: 0 auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 60vw;
+  border-top: black 2px solid;
+  list-style-type: none;
+  color: black;
+}
+
+.listItem:hover{
+  background-color: rgb(191, 217, 255);
+}

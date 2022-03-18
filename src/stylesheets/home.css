@@ -1,0 +1,96 @@
+#sloganContainer{
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  width: 56vw;
+  
+}
+
+#slogan{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.l1,.l2,.l3,.l4 {
+  position: absolute;
+  background: transparent;
+  width: 0px;
+  height: 0px;
+  /*give each border a background color of black in css so that you don't need to animate it*/
+  background-color:white;
+  
+}
+
+.l1 {
+  left: 0;
+  bottom: 0;
+  height: 0%;
+  width: 2px;
+  animation: verticalLine .25s ease-in 0s 1 normal forwards;
+}
+
+.l2 {
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  animation: horizontalLine .5s ease-in .25s 1 normal forwards;
+}
+
+
+.l3 {
+  right: 0;
+  top: 0;
+  height: 0%;
+  width: 2px;
+  animation: verticalLine .25s ease-in .75s 1 normal forwards;
+}
+
+.l4 {
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  animation: horizontalLine .5s ease-in 1s 1 normal forwards;
+}
+
+@keyframes horizontalLine {
+  from {width: 0%}
+  to {width: 100%}
+}
+
+@keyframes verticalLine {
+  from {height: 0%}
+  to {height: 100%}
+}
+
+
+
+#popularCardsContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 40vh;
+  height: auto;
+}
+
+.cardImg{
+
+  width: 25vw;
+  height: auto;
+  margin: 1vh 2.5vw;
+  align-items: flex-end;
+}
+
+.cardContainer{
+  width: 30vw;
+  background-color: white ;
+  border: black 1px solid;
+}
+
+.cardLabel{
+  text-align: center;
+}
+
+
